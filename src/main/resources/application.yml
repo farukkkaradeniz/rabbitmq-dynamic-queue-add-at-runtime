@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: rabbit-mq-dynamic-queue
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+props:
+  rabbitmq:
+    routing-key: default-routing-key
+    exchange: default-exchange
+    queue: default-queue
